@@ -1,0 +1,76 @@
+/*! elementor-designer - v1.0.0 */
+
+.panel-elements-category-title-designer-elements {
+    background-color: #fff;
+    color: #5c2e89;
+    margin: 5px 10px;
+    border-radius: 3px;
+}
+
+.eicon-designer-edd:before,
+.eicon-designer-scroll:before,
+.eicon-designer-preview:before,
+.eicon-designer-frameit:before,
+.eicon-designer-designfolio:before,
+.panel-elements-category-title-designer-elements:before {
+	font-family: dashicons;
+    text-decoration: inherit;
+    font-weight: 400;
+    font-style: normal;
+    vertical-align: top;
+    text-align: center;
+    transition: color .1s ease-in 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.panel-elements-category-title-designer-elements:before {
+    content: "\f309";
+	display: inline-block;
+    width: 20px;
+    height: 15px;
+    font-size: 15px;
+	padding-right: 10px;
+}
+
+.eicon-designer-edd:before,
+.eicon-designer-scroll:before,
+.eicon-designer-frameit:before,
+.eicon-designer-preview:before,
+.eicon-designer-designfolio:before {
+	display: block;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+	color: #5c2e89;
+}
+
+.eicon-designer-edd:before {
+	content: "\f312";
+}
+
+.eicon-designer-cart:before {
+	content: "\f174";
+}
+
+.eicon-designer-preview:before {
+	content: "\f115";
+}
+
+.eicon-designer-frameit:before {
+	content: "\f128";
+}
+
+.eicon-designer-designfolio:before {
+	content: "\f233";
+}
+
+.eicon-designer-scroll:before {
+	content: "\f168";
+}
+
+.elementor-control-cta_hover_info,
+.elementor-control-toggled_content_info {
+	color: #495157;
+	font-weight: 700;
+}
